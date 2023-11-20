@@ -1,3 +1,13 @@
+body{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+
+
 .navegador{
     display: flex;
     flex-direction: column;
