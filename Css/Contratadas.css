@@ -1,52 +1,168 @@
-body{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1px;
+*{
+    box-sizing: border-box;
 }
 
-
-
-.navegador{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+.contenedor > *{
+    text-align: center;
+    padding: 8px;
+   
     
 }
-
-.zonanav{
-    width: 1440px;
-    height: 96px;
-    display: flex;
-    align-items: flex-start;
-    gap: 96px;
-    background: var(--marca-gradiente, linear-gradient(270deg, #CFEDD2 0%, #DEEDCF 0.01%, #FFF 98.09%));
-}
-
 .contenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+    display:grid;
+    gap:8px;
+    grid-template:
+        "Navegador" 96px
+        "Main"  auto /*lo suyo es poner el main para que se adapte con el contenido*/
+        "Footer" 192px;
 }
 
-.zonacont{
-    width: 1440px;
-    height: 735px;
-    background-color: red;
+section{
+    text-align: left;
+    padding:24px;
+}
+
+.navegador{
+    grid-area: Navegador;
+    background: linear-gradient(270deg, #CFEDD2 0%, #DEEDCF 0.01%, #FFF 98.09%);
+}
+
+.main{
+    grid-area: Main;
+    margin: 0 auto;
 }
 
 .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
+    grid-area: Footer;
+    background: #DEEDCF;
+
 }
 
-.zonafoo{
-    width: 1440px;
-    height: 192px;
-    background: var(--marca-color-de-fondo, #DEEDCF);
+.botones{
+    display:grid;
+    gap: 24px;
+    grid-template:
+        "boton1  boton2" 50px/
+         317px  283px;
+}
+
+.boton1{
+    padding:8px;
+    color:white;
+    text-align: center;
+    grid-area: boton1;
+    border-radius: 20px;
+    background: #111D38;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.boton2{
+    padding:8px;
+    grid-area: boton2;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    background: #7D02A6;
+    color:white;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.targetas{
+    display: grid;
+    gap: 40px 240px;
+    grid-template:
+        "targeta1 targeta2" 232px
+        "targeta3 targeta4" 232px /
+            436px  436px;
+       
+}
+
+.targeta1{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    grid-area: targeta1;
+}
+
+.targeta2{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    grid-area: targeta2;
+}
+
+.targeta3{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    grid-area: targeta3;
+}
+
+.targeta4{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    grid-area: targeta4;
+}
+
+.paginas{
+    text-align: center;
+    display: grid;
+    grid-template:
+        "vacio1 pag1 pag2 pag3 vacio2" 56px/
+         auto 56px 56px 56px auto;
+}
+
+.pag1{
+    grid-area: pag1;
+    background: #111D38;
+    color:white;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px;
+    
+}
+
+.pag2{
+    grid-area:pag2;
+    border: 1px solid #000;
+    background:white;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px;
+}
+
+.pag3{
+    grid-area:pag3;
+    border: 1px solid #000;
+    background:white;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px;
+}
+
+/*xuleta para query
+@media screen and (min-width:576px){
+    .container{
+        grid-template:
+        "Navegador  Main" 831px
+        "Footer  Footer" 192px /
+         200px   auto;
+         esto es el ancho de cada zona dejas siempre una auto y repartes con las
+         demas
+    }
 }
