@@ -1,0 +1,42 @@
+.navegador{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.zonanav{
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    align-items: flex-start;
+    gap: 96px;
+    background: var(--marca-gradiente, linear-gradient(270deg, #CFEDD2 0%, #DEEDCF 0.01%, #FFF 98.09%));
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.zonacont{
+    width: 1440px;
+    height: 735px;
+    background-color: red;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.zonafoo{
+    width: 1440px;
+    height: 192px;
+    background: var(--marca-color-de-fondo, #DEEDCF);
+}
