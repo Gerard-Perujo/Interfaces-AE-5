@@ -1,0 +1,318 @@
+.nuestrosproductos{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/*.rectangle{
+    width: 1440px;
+    height: 600px;
+}*/
+
+.contenidoybotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    position: absolute;
+    left: 56px;
+    top: 32px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.tituloydescripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.cuales{
+    width: 741px;
+    height: 48px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Titulos/TituloM */
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px; /* 140% */
+}
+
+.descubre{
+    width: 639px;
+    height: 25px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
+
+.tarjetas{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+    /* SombraTarjeta */
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tarjetita1{
+    width: 320px;
+    height: 296px;
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: var(--marca-color-de-fondo, #DEEDCF);
+}
+
+.imagen1{
+    width: 304px;
+    height: 184px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+}
+
+.actividades{
+    width: 129px;
+    height: 18px;
+    position: absolute;
+    right: 95px;
+    bottom: 81px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
+
+.cursos{
+    width: 280px;
+    height: 43px;
+    position: absolute;
+    left: 20px;
+    bottom: 16px;
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+.tarjeta2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tarjetita2{
+    width: 320px;
+    height: 296px;
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: var(--marca-color-de-fondo, #DEEDCF);
+}
+
+.imagen2{
+    width: 304px;
+    height: 184px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+}
+
+.sesiones{
+    width: 221px;
+    height: 28px;
+    position: absolute;
+    right: 49px;
+    bottom: 70px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
+
+.charla{
+    width: 280px;
+    height: 41px;
+    position: absolute;
+    left: 20px;
+    bottom: 16px;
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+.tarjeta3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tarjetita3{
+    width: 320px;
+    height: 296px;
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: var(--marca-color-de-fondo, #DEEDCF);
+}
+
+.imagen3{
+    width: 304px;
+height: 184px;
+position: absolute;
+left: 8px;
+top: 8px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+}
+
+.autoevaluacion{
+    width: 170px;
+    height: 26px;
+    position: absolute;
+    left: 75px;
+    bottom: 72px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
+
+.conoce{
+    width: 279px;
+    height: 42px;
+    position: absolute;
+    right: 20px;
+    bottom: 16px;
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+.tarjeta4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tarjetita4{
+    width: 320px;
+    height: 296px;
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: var(--marca-color-de-fondo, #DEEDCF);
+}
+
+.imagen4{
+    width: 304px;
+    height: 184px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+}
+
+.herramientas{
+    width: 260px;
+    height: 18px;
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+    color: var(--marca-color-de-letras, #111D38);
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
+
+.trato{
+    width: 280px;
+    height: 42px;
+    position: absolute;
+    left: 20px;
+    bottom: 16px;
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+.framebotones{
+    display: flex;
+    width: 656px;
+    height: 39px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    border: 1px solid var(--contraste-color-lila, #7D02A6);
+    background: var(--Fondo, #FFF);
+}
+
+.consultar{
+    color: var(--contraste-color-lila, #7D02A6);
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
