@@ -1,14 +1,14 @@
-.nuestrosproductos{
+.productos{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
 
-/*.rectangle{
+.rectangle{
     width: 1440px;
     height: 600px;
-}*/
+}
 
 .contenidoybotones{
     display: flex;
@@ -69,12 +69,21 @@
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
 .tarjeta1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
 }
+
+
+.verde1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
 
 .tarjetita1{
     width: 320px;
@@ -83,21 +92,32 @@
     background: var(--marca-color-de-fondo, #DEEDCF);
 }
 
-.imagen1{
-    width: 304px;
-    height: 184px;
+.itactividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
     position: absolute;
     left: 8px;
     top: 8px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+}
+
+.imagen1{
+    width: 304px;
+    height: 184px;
+    background: url(img/home/fotoactividades.png), lightgray 50% / cover no-repeat, #979393;
+}
+
+.tact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
 }
 
 .actividades{
     width: 129px;
     height: 18px;
-    position: absolute;
-    right: 95px;
-    bottom: 81px;
     color: var(--marca-color-de-letras, #111D38);
 
     /* Texto/Descripcion */
@@ -111,9 +131,6 @@
 .cursos{
     width: 280px;
     height: 43px;
-    position: absolute;
-    left: 20px;
-    bottom: 16px;
     color: var(--marca-color-de-letras, #111D38);
     text-align: center;
 
@@ -125,11 +142,20 @@
     line-height: 22.4px; /* 140% */
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
+
 .tarjeta2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
+}
+
+.verde2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .tarjetita2{
@@ -139,13 +165,30 @@
     background: var(--marca-color-de-fondo, #DEEDCF);
 }
 
+.itsesiones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
 .imagen2{
     width: 304px;
     height: 184px;
     position: absolute;
     left: 8px;
     top: 8px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+    background: url(img/home/fotovivo.png), lightgray 50% / cover no-repeat, #979393;
+}
+
+.tses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
 }
 
 .sesiones{
@@ -181,11 +224,19 @@
     line-height: 22.4px; /* 140% */
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
 .tarjeta3{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+}
+
+.verde3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .tarjetita3{
@@ -195,13 +246,30 @@
     background: var(--marca-color-de-fondo, #DEEDCF);
 }
 
+.itauto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
 .imagen3{
     width: 304px;
 height: 184px;
 position: absolute;
 left: 8px;
 top: 8px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+background: url(img/home/fotoauto.png), lightgray 50% / cover no-repeat, #979393;
+}
+
+.tau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
 }
 
 .autoevaluacion{
@@ -237,11 +305,19 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
     line-height: 22.4px; /* 140% */
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
 .tarjeta4{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+}
+
+.verde4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .tarjetita4{
@@ -251,13 +327,30 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
     background: var(--marca-color-de-fondo, #DEEDCF);
 }
 
+.itapoyo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
 .imagen4{
     width: 304px;
     height: 184px;
     position: absolute;
     left: 8px;
     top: 8px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
+    background: url(img/home/fotoherramientas.png), lightgray 50% / cover no-repeat, #979393;
+}
+
+.tapo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
 }
 
 .herramientas{
@@ -292,6 +385,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat, #979393;
     font-weight: 500;
     line-height: 22.4px; /* 140% */
 }
+
+/*------------------------------------------------------------------------------------------------------------------*/
 
 .framebotones{
     display: flex;
