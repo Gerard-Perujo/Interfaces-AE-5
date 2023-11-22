@@ -1,3 +1,4 @@
+/*CSS distribucion pagina*/
 *{
     box-sizing: border-box;
 }
@@ -19,25 +20,129 @@
         "Footer" 192px;
 }
 
-section{
-    text-align: left;
-    padding:24px;
-}
+
+/*CSS Navegador*/
 
 .navegador{
     grid-area: Navegador;
     background: linear-gradient(270deg, #CFEDD2 0%, #DEEDCF 0.01%, #FFF 98.09%);
+    border-bottom: black 1px solid;
 }
+
+.contenedorNavegador{
+    display:grid;
+    grid-template:
+        "vacionav1 logo vacionav2 opciones vacionnav3 buscardor vacionav4 avatar vacionav5"/
+            32px    97px  auto       443px    auto       413px     auto      84px     32px
+
+}
+
+.logo{
+    grid-area:logo;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.opciones{
+    grid-area:opciones;
+    display: flex;
+    align-items: flex-start;
+   padding-top: 16px;
+    gap: 48px;
+}
+
+.MisActi{
+    height: 42px;
+    width: 148px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 20px;
+    border: 1px solid  #111D38;
+    background: #FFF;
+    color:#111D38;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.Servi{
+    height: 42px;
+    width: 99px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 20px;
+    border: 1px solid #7D02A6;
+    background: #FFF;
+    color: #7D02A6;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.Contac{
+    height: 42px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 20px;
+    border: 1px solid #7D02A6;
+    background: #FFF;
+    color: #7D02A6;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.barraBuscar{
+    grid-area:buscador;
+    color:#111D38;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Cantarell;
+    width: 500px;
+    height: 42px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input-icon{
+    margin-left: 108%;
+   width: 30px;
+   height: 30px;
+   transform: translateY(-120%);
+}
+
+.avatar{
+    grid-area:avatar;
+}
+.avatar img{
+    width: 84px;
+    height: 80px;
+    
+}
+
+/*CSS del Main*/
 
 .main{
     grid-area: Main;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
-.footer{
-    grid-area: Footer;
-    background: #DEEDCF;
-
+section{
+    padding:24px;
 }
 
 .botones{
@@ -48,7 +153,7 @@ section{
          317px  283px;
 }
 
-.boton1{
+.boton1 input{
     padding:8px;
     color:white;
     text-align: center;
@@ -61,9 +166,10 @@ section{
     font-style: normal;
     font-weight: 500;
     line-height: 33.6px;
+    width: 317px;
 }
 
-.boton2{
+.boton2 input{
     padding:8px;
     grid-area: boton2;
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
@@ -77,6 +183,7 @@ section{
     font-style: normal;
     font-weight: 500;
     line-height: 33.6px;
+    width: 283px;
 }
 
 .targetas{
@@ -129,7 +236,7 @@ section{
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 67.2px;
+    
     
 }
 
@@ -141,7 +248,7 @@ section{
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 67.2px;
+   
 }
 
 .pag3{
@@ -152,8 +259,71 @@ section{
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 67.2px;
 }
+
+/* CSS del Footer*/
+
+.footer{
+    grid-area: Footer;
+    background: #DEEDCF;
+    border-top: black 1px solid;
+}
+
+.contenedorFooter{
+    padding:8px;
+    display: grid;
+    grid-template:
+    "vacio3 privacidad  Contacto vacio4" 111px/
+        auto   275px     275px     auto;
+
+    gap:400px;
+}
+.privacidad{
+    text-align: left;
+    grid-area: privacidad;
+}
+.privacidad label{
+    color: #111D38;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.privacidad p{
+    color: #111D38;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+.Contacto{
+    text-align: left;
+    grid-area: Contacto;
+}
+
+.Contacto label{
+    color: #111D38;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.Contacto p{
+    color: #111D38;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+
 
 /*xuleta para query
 @media screen and (min-width:576px){
