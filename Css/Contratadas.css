@@ -4,20 +4,16 @@
 }
 
 .contenedor > *{
-    text-align: center;
-    padding: 8px;
-   
-    
+  padding:8px; 
 }
 .contenedor{
     border-radius: 4px;
     box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
     display:grid;
-    gap:8px;
     grid-template:
         "Navegador" 96px
         "Main"  auto /*lo suyo es poner el main para que se adapte con el contenido*/
-        "Footer" 192px;
+        "Footer" 192px
 }
 
 
@@ -275,10 +271,9 @@ section{
     padding:8px;
     display: grid;
     grid-template:
-    "vacio3 privacidad  Contacto vacio4" 111px/
-        auto   275px     275px     auto;
+    "vacio3 privacidad vacio4 Contacto vacio5" 111px/
+        auto   275px    auto  275px     auto;
 
-    gap:400px;
 }
 .privacidad{
     text-align: left;
