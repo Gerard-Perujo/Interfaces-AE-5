@@ -69,6 +69,11 @@
     font-weight: 500;
 }
 
+.MisActi:hover{
+    border: 1px solid  #111D38;
+    color:#111D38;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
 .Servi{
     height: 42px;
     width: 99px;
@@ -85,6 +90,11 @@
     font-weight: 500;
 }
 
+.Servi:hover{
+    border: 1px solid  rgba(142, 0, 148, 0.54);
+    color:rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
 .Contac{
     height: 42px;
     width: 100px;
@@ -99,6 +109,12 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+}
+
+.Contac:hover{
+    border: 1px solid  rgba(142, 0, 148, 0.54);
+    color:rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }
 .barraBuscar{
     grid-area:buscador;
@@ -157,7 +173,6 @@ section{
     grid-area: boton1;
     border-radius: 20px;
     background: #111D38;
-    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
     font-family: Cantarell;
     font-size: 24px;
     font-style: normal;
@@ -166,10 +181,13 @@ section{
     width: 283px;
 }
 
+.boton1 input:hover{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}
+
 .boton2 input{
     padding:8px;
     grid-area: boton2;
-    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
     text-align: center;
     border-radius: 20px;
     opacity: 0.8;
@@ -181,6 +199,11 @@ section{
     font-weight: 500;
     line-height: 33.6px;
     width: 283px;
+}
+
+.boton2 input:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
 }
 
 .targetas{
@@ -202,7 +225,11 @@ section{
     border-radius: 4px;
     border: 1px solid #000;
     grid-area: targeta1;
-    
+    transition: 1s;
+}
+
+.targeta1:hover{
+    transform: scale(1.2);
 }
 
 .targeta2{
@@ -214,6 +241,10 @@ section{
     border-radius: 4px;
     border: 1px solid black;
     grid-area: targeta2;
+    transition: 1s;
+}
+.targeta2:hover{
+    transform: scale(1.2);
 }
 
 .targeta3{
@@ -225,6 +256,11 @@ section{
     border-radius: 4px;
     border: 1px solid black;
     grid-area: targeta3;
+    transition:1s;
+}
+
+.targeta3:hover{
+    transform:scale(1.2);
 }
 
 .targeta4{
@@ -236,6 +272,11 @@ section{
     border-radius: 4px;
     border:1px solid black;
     grid-area: targeta4;
+    transition: 1s;
+}
+
+.targeta4:hover{
+    transform: scale(1.2);
 }
 
 .datosTargeta img{
@@ -271,8 +312,14 @@ section{
     border-radius: 20px;
     background: #7D02A6;
     color: white;
+    width: 100px;
+    height: 30px;
 }
 
+.contenidoTargeta input:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}
 .paginas{
     text-align: center;
     display: grid;
@@ -281,15 +328,16 @@ section{
          auto 62px 56px 56px auto;
 }
 
-.pag1{
+ .pag1 {
     grid-area: pag1;
     border: 1px solid #000;
-    background:white;
+    background-color: #111D38;
+    color:white;
     font-family: Lora;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    color: #111D38;
+    transform: scale(1.3);
 }
 
 .pag2{
@@ -300,7 +348,14 @@ section{
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    color: #111D38;  
+    color: #111D38; 
+    transition: 1s; 
+}
+
+.pag2:hover{
+    background-color: #111D38;
+    color:white;
+    transform: scale(1.3);
 }
 
 .pag3{
@@ -312,6 +367,13 @@ section{
     font-style: normal;
     font-weight: 400;
     color: #111D38;
+    transition: 1s;
+}
+
+.pag3:hover{
+    background-color: #111D38;
+    color:white;
+    transform:scale(1.3);
 }
 
 
