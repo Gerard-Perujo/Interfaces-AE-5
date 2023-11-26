@@ -1,5 +1,17 @@
+
+
 .home{
-    width: 1440px;
-    height: 3288px;
-    background: var(--Fondo, #FFF);
+    display:grid;
+    grid-template:
+    "navegafor" 150px
+    "main"  auto
+    "footer" 200px;    
+}
+
+.nav{
+    grid-area:navegador;
+}
+
+.main{
+    grid-area: main;
 }

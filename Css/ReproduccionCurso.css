@@ -1,3 +1,13 @@
+.contenedor{
+    border-radius: 4px;
+    box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+    display:grid;
+    grid-template:
+        "Navegador" 96px
+        "contenedorSecciones"  auto /*lo suyo es poner el main para que se adapte con el contenido*/
+        "Footer" 192px
+
+}
 /*CSS NAVEGADOR*/
 
 .navegador{
@@ -119,11 +129,16 @@
 }
 
 .avatar{
+    padding-top: 4px;
     grid-area:avatar;
+    transform: rotate(-10.199deg);
 }
 .avatar img{
-    width: 84px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
+    border: 5px black solid;
+    border-radius: 35px;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
     
 }
 
@@ -237,11 +252,17 @@ p{
     font-family: Cantarell;
     font-size: 24px;
     padding: 16px;
+    color:white;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 20px;
     background: var(--contraste-color-lila, #7D02A6);
+}
+
+.boton1:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }
 .boton2{
     display: flex;
@@ -250,12 +271,19 @@ p{
     font-family: Cantarell;
     font-size: 24px;
     padding: 16px;
+    color:#7D02A6;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 20px;
     border: 1px solid var(--contraste-color-lila, #7D02A6);
     background: var(--Fondo, #FFF);
+}
+
+.boton2:hover{
+    border: 1px solid  rgba(142, 0, 148, 0.54);
+    color:rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }
 
 /*CSS FOOTER*/
