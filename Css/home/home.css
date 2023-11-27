@@ -17,6 +17,15 @@
 }
 */
 
+
+
+
+
+
+
+
+
+
 /*CSS distribucion pagina*/
 *{
     box-sizing: border-box;
@@ -34,6 +43,19 @@
         "Main"  auto /*lo suyo es poner el main para que se adapte con el contenido*/
         "Footer" 192px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*CSS Navegador*/
@@ -170,6 +192,16 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /*CSS del Main*/
 
 .main{
@@ -191,7 +223,7 @@ section{
 
 .hero{
     grid-area: hero;
-    background-color: #111D38;
+    background-color: white;
 }
 
 .productos{
@@ -213,6 +245,21 @@ section{
     grid-area: testimonios;
     background-color: blue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CSS del Footer*/
 
