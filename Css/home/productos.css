@@ -1,4 +1,4 @@
- /*       .productos{
+/*        .productos{
             display: inline-flex;
             flex-direction: column;
             align-items: flex-start;
@@ -40,12 +40,12 @@
             color: var(--marca-color-de-letras, #111D38);
 
             /* Titulos/TituloM */
- /*           font-family: Lora;
+/*            font-family: Lora;
             font-size: 48px;
             font-style: normal;
             font-weight: 400;
             line-height: 67.2px; /* 140% */
- /*       }
+/*        }
 
         .descubre{
             width: 639px;
@@ -58,7 +58,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 33.6px; /* 140% */
-/*        }
+ /*       }
 
         .tarjetas{
             display: flex;
@@ -121,12 +121,12 @@
             color: var(--marca-color-de-letras, #111D38);
 
             /* Texto/Descripcion */
-   /*         font-family: Cantarell;
+/*            font-family: Cantarell;
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
             line-height: 33.6px; /* 140% */
- /*       }
+/*        }
 
         .cursos{
             width: 280px;
@@ -135,7 +135,7 @@
             text-align: center;
 
             /* Texto/Tarjeta */
- /*           font-family: Cantarell;
+/*            font-family: Cantarell;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
@@ -144,7 +144,7 @@
 
         /*------------------------------------------------------------------------------------------------------------------*/
 
- /*       .tarjeta2{
+/*        .tarjeta2{
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -200,12 +200,12 @@
             color: var(--marca-color-de-letras, #111D38);
 
             /* Texto/Descripcion */
- /*           font-family: Cantarell;
+/*            font-family: Cantarell;
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
             line-height: 33.6px; /* 140% */
- /*       }
+/*        }
 
         .charla{
             width: 280px;
@@ -222,10 +222,10 @@
             font-style: normal;
             font-weight: 500;
             line-height: 22.4px; /* 140% */
-/*        }
+ /*       }
 
         /*------------------------------------------------------------------------------------------------------------------*/
- /*       .tarjeta3{
+/*        .tarjeta3{
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -286,7 +286,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 33.6px; /* 140% */
-/*        }
+ /*       }
 
         .conoce{
             width: 279px;
@@ -303,7 +303,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 22.4px; /* 140% */
-/*        }
+ /*       }
 
         /*------------------------------------------------------------------------------------------------------------------*/
  /*       .tarjeta4{
@@ -362,7 +362,7 @@
             color: var(--marca-color-de-letras, #111D38);
 
             /* Texto/Descripcion */
- /*           font-family: Cantarell;
+/*            font-family: Cantarell;
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
@@ -379,7 +379,7 @@
             text-align: center;
 
             /* Texto/Tarjeta */
-  /*          font-family: Cantarell;
+/*            font-family: Cantarell;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
