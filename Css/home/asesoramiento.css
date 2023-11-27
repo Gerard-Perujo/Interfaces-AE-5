@@ -1,107 +1,109 @@
-.asesoramiento{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
 
-.rectangle{
-    width: 1440px;
-    height: 600px;
-}
 
-.todo{
-    display: flex;
-    align-items: center;
-    gap: 96px;
-    position: absolute;
-    left: 46px;
-    top: 44px;
-}
+/*        .asesoramiento{
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
 
-.imagenlay{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+        .rectangle{
+            width: 1440px;
+            height: 600px;
+        }
 
-.imagen{
-    width: 560px;
-    height: 472px;
-    background: url(img/home/fotoasesoramiento.png), lightgray 0px -129.668px / 100% 177.898% no-repeat, #D9D9D9;
-}
+        .todo{
+            display: flex;
+            align-items: center;
+            gap: 96px;
+            position: absolute;
+            left: 46px;
+            top: 44px;
+        }
 
-.informacionboton{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-}
+        .imagenlay{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
 
-.textoinfo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 16px;
-}
+        .imagen{
+            width: 560px;
+            height: 472px;
+            background: url(img/home/fotoasesoramiento.png), lightgray 0px -129.668px / 100% 177.898% no-repeat, #D9D9D9;
+        }
 
-.ase{
-    width: 665px;
-    height: 88px;
-    color: var(--marca-color-de-letras, #111D38);
+        .informacionboton{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 64px;
+        }
 
-    /* Titulos/TituloM */
-    font-family: Lora;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 67.2px; /* 140% */
-}
+        .textoinfo{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 16px;
+        }
 
-.proceso{
-    width: 673px;
-    height: 108px;
-    color: var(--marca-color-de-letras, #111D38);
+        .ase{
+            width: 665px;
+            height: 88px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+            /* Titulos/TituloM */
+/*            font-family: Lora;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 67.2px; /* 140% */
+/*        }
 
-.boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+        .proceso{
+            width: 673px;
+            height: 108px;
+            color: var(--marca-color-de-letras, #111D38);
 
-.frameboton{
-    display: flex;
-    width: 560px;
-    height: 80px;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    border-radius: 20px;
-    border: 1px solid var(--contraste-color-lila, #7D02A6);
-    background: var(--Fondo, #FFF);
-}
+            /* Texto/Descripcion */
+/*            font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+/*        }
 
-.realizar{
-    color: var(--contraste-color-lila, #7D02A6);
+        .boton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
 
-    /* Titulos/TituloS */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+        .frameboton{
+            display: flex;
+            width: 560px;
+            height: 80px;
+            padding: 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            border-radius: 20px;
+            border: 1px solid var(--contraste-color-lila, #7D02A6);
+            background: var(--Fondo, #FFF);
+        }
+
+        .realizar{
+            color: var(--contraste-color-lila, #7D02A6);
+
+            /* Titulos/TituloS */
+/*            font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+ /*       }

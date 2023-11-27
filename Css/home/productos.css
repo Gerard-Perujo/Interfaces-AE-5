@@ -1,413 +1,413 @@
-.productos{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+ /*       .productos{
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
 
-.rectangle{
-    width: 1440px;
-    height: 600px;
-}
+        .rectangle{
+            width: 1440px;
+            height: 600px;
+        }
 
-.contenidoybotones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    position: absolute;
-    left: 56px;
-    top: 32px;
-}
+        .contenidoybotones{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 64px;
+            position: absolute;
+            left: 56px;
+            top: 32px;
+        }
 
-.contenido{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-}
+        .contenido{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
 
-.tituloydescripcion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-}
+        .tituloydescripcion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
 
-.cuales{
-    width: 741px;
-    height: 48px;
-    color: var(--marca-color-de-letras, #111D38);
+        .cuales{
+            width: 741px;
+            height: 48px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Titulos/TituloM */
-    font-family: Lora;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 67.2px; /* 140% */
-}
+            /* Titulos/TituloM */
+ /*           font-family: Lora;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 67.2px; /* 140% */
+ /*       }
 
-.descubre{
-    width: 639px;
-    height: 25px;
-    color: var(--marca-color-de-letras, #111D38);
+        .descubre{
+            width: 639px;
+            height: 25px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+            /* Texto/Descripcion */
+/*            font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+/*        }
 
-.tarjetas{
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
+        .tarjetas{
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
 
-    /* SombraTarjeta */
-    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
-}
+            /* SombraTarjeta */
+/*            box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+        }
 
-/*------------------------------------------------------------------------------------------------------------------*/
-.tarjeta1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-
-.verde1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+        /*------------------------------------------------------------------------------------------------------------------*/
+/*        .tarjeta1{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
 
-.tarjetita1{
-    width: 320px;
-    height: 296px;
-    border: 1px solid var(--marca-color-de-letras, #111D38);
-    background: var(--marca-color-de-fondo, #DEEDCF);
-}
+        .verde1{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
 
-.itactividades{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-}
 
-.imagen1{
-    width: 304px;
-    height: 184px;
-    background: url(img/home/fotoactividades.png), lightgray 50% / cover no-repeat, #979393;
-}
+        .tarjetita1{
+            width: 320px;
+            height: 296px;
+            border: 1px solid var(--marca-color-de-letras, #111D38);
+            background: var(--marca-color-de-fondo, #DEEDCF);
+        }
 
-.tact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
-}
+        .itactividades{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
 
-.actividades{
-    width: 129px;
-    height: 18px;
-    color: var(--marca-color-de-letras, #111D38);
+        .imagen1{
+            width: 304px;
+            height: 184px;
+            background: url(img/home/fotoactividades.png), lightgray 50% / cover no-repeat, #979393;
+        }
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+        .tact{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 22px;
+        }
 
-.cursos{
-    width: 280px;
-    height: 43px;
-    color: var(--marca-color-de-letras, #111D38);
-    text-align: center;
+        .actividades{
+            width: 129px;
+            height: 18px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Tarjeta */
-    font-family: Cantarell;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px; /* 140% */
-}
+            /* Texto/Descripcion */
+   /*         font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+ /*       }
 
-/*------------------------------------------------------------------------------------------------------------------*/
+        .cursos{
+            width: 280px;
+            height: 43px;
+            color: var(--marca-color-de-letras, #111D38);
+            text-align: center;
 
-.tarjeta2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
+            /* Texto/Tarjeta */
+ /*           font-family: Cantarell;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.4px; /* 140% */
+ /*       }
 
-.verde2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
+        /*------------------------------------------------------------------------------------------------------------------*/
 
-.tarjetita2{
-    width: 320px;
-    height: 296px;
-    border: 1px solid var(--marca-color-de-letras, #111D38);
-    background: var(--marca-color-de-fondo, #DEEDCF);
-}
+ /*       .tarjeta2{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-.itsesiones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-}
+        .verde2{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-.imagen2{
-    width: 304px;
-    height: 184px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-    background: url(img/home/fotovivo.png), lightgray 50% / cover no-repeat, #979393;
-}
+        .tarjetita2{
+            width: 320px;
+            height: 296px;
+            border: 1px solid var(--marca-color-de-letras, #111D38);
+            background: var(--marca-color-de-fondo, #DEEDCF);
+        }
 
-.tses{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-}
+        .itsesiones{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
 
-.sesiones{
-    width: 221px;
-    height: 28px;
-    position: absolute;
-    right: 49px;
-    bottom: 70px;
-    color: var(--marca-color-de-letras, #111D38);
+        .imagen2{
+            width: 304px;
+            height: 184px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            background: url(img/home/fotovivo.png), lightgray 50% / cover no-repeat, #979393;
+        }
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+        .tses{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 13px;
+        }
 
-.charla{
-    width: 280px;
-    height: 41px;
-    position: absolute;
-    left: 20px;
-    bottom: 16px;
-    color: var(--marca-color-de-letras, #111D38);
-    text-align: center;
+        .sesiones{
+            width: 221px;
+            height: 28px;
+            position: absolute;
+            right: 49px;
+            bottom: 70px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Tarjeta */
-    font-family: Cantarell;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px; /* 140% */
-}
+            /* Texto/Descripcion */
+ /*           font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+ /*       }
 
-/*------------------------------------------------------------------------------------------------------------------*/
-.tarjeta3{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+        .charla{
+            width: 280px;
+            height: 41px;
+            position: absolute;
+            left: 20px;
+            bottom: 16px;
+            color: var(--marca-color-de-letras, #111D38);
+            text-align: center;
 
-.verde3{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
+            /* Texto/Tarjeta */
+ /*           font-family: Cantarell;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.4px; /* 140% */
+/*        }
 
-.tarjetita3{
-    width: 320px;
-    height: 296px;
-    border: 1px solid var(--marca-color-de-letras, #111D38);
-    background: var(--marca-color-de-fondo, #DEEDCF);
-}
+        /*------------------------------------------------------------------------------------------------------------------*/
+ /*       .tarjeta3{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
 
-.itauto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-}
+        .verde3{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-.imagen3{
-    width: 304px;
-height: 184px;
-position: absolute;
-left: 8px;
-top: 8px;
-background: url(img/home/fotoauto.png), lightgray 50% / cover no-repeat, #979393;
-}
+        .tarjetita3{
+            width: 320px;
+            height: 296px;
+            border: 1px solid var(--marca-color-de-letras, #111D38);
+            background: var(--marca-color-de-fondo, #DEEDCF);
+        }
 
-.tau{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-}
+        .itauto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
 
-.autoevaluacion{
-    width: 170px;
-    height: 26px;
-    position: absolute;
-    left: 75px;
-    bottom: 72px;
-    color: var(--marca-color-de-letras, #111D38);
+        .imagen3{
+            width: 304px;
+        height: 184px;
+        position: absolute;
+        left: 8px;
+        top: 8px;
+        background: url(img/home/fotoauto.png), lightgray 50% / cover no-repeat, #979393;
+        }
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+        .tau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+        }
 
-.conoce{
-    width: 279px;
-    height: 42px;
-    position: absolute;
-    right: 20px;
-    bottom: 16px;
-    color: var(--marca-color-de-letras, #111D38);
-    text-align: center;
+        .autoevaluacion{
+            width: 170px;
+            height: 26px;
+            position: absolute;
+            left: 75px;
+            bottom: 72px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Tarjeta */
-    font-family: Cantarell;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px; /* 140% */
-}
+            /* Texto/Descripcion */
+/*            font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+/*        }
 
-/*------------------------------------------------------------------------------------------------------------------*/
-.tarjeta4{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+        .conoce{
+            width: 279px;
+            height: 42px;
+            position: absolute;
+            right: 20px;
+            bottom: 16px;
+            color: var(--marca-color-de-letras, #111D38);
+            text-align: center;
 
-.verde4{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
+            /* Texto/Tarjeta */
+/*            font-family: Cantarell;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.4px; /* 140% */
+/*        }
 
-.tarjetita4{
-    width: 320px;
-    height: 296px;
-    border: 1px solid var(--marca-color-de-letras, #111D38);
-    background: var(--marca-color-de-fondo, #DEEDCF);
-}
+        /*------------------------------------------------------------------------------------------------------------------*/
+ /*       .tarjeta4{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
 
-.itapoyo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-}
+        .verde4{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-.imagen4{
-    width: 304px;
-    height: 184px;
-    position: absolute;
-    left: 8px;
-    top: 8px;
-    background: url(img/home/fotoherramientas.png), lightgray 50% / cover no-repeat, #979393;
-}
+        .tarjetita4{
+            width: 320px;
+            height: 296px;
+            border: 1px solid var(--marca-color-de-letras, #111D38);
+            background: var(--marca-color-de-fondo, #DEEDCF);
+        }
 
-.tapo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 22px;
-}
+        .itapoyo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
 
-.herramientas{
-    width: 260px;
-    height: 18px;
-    position: absolute;
-    left: 30px;
-    bottom: 80px;
-    color: var(--marca-color-de-letras, #111D38);
+        .imagen4{
+            width: 304px;
+            height: 184px;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            background: url(img/home/fotoherramientas.png), lightgray 50% / cover no-repeat, #979393;
+        }
 
-    /* Texto/Descripcion */
-    font-family: Cantarell;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px; /* 140% */
-}
+        .tapo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 22px;
+        }
 
-.trato{
-    width: 280px;
-    height: 42px;
-    position: absolute;
-    left: 20px;
-    bottom: 16px;
-    color: var(--marca-color-de-letras, #111D38);
-    text-align: center;
+        .herramientas{
+            width: 260px;
+            height: 18px;
+            position: absolute;
+            left: 30px;
+            bottom: 80px;
+            color: var(--marca-color-de-letras, #111D38);
 
-    /* Texto/Tarjeta */
-    font-family: Cantarell;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px; /* 140% */
-}
+            /* Texto/Descripcion */
+ /*           font-family: Cantarell;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33.6px; /* 140% */
+ /*       }
 
-/*------------------------------------------------------------------------------------------------------------------*/
+        .trato{
+            width: 280px;
+            height: 42px;
+            position: absolute;
+            left: 20px;
+            bottom: 16px;
+            color: var(--marca-color-de-letras, #111D38);
+            text-align: center;
 
-.framebotones{
-    display: flex;
-    width: 656px;
-    height: 39px;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    border-radius: 20px;
-    border: 1px solid var(--contraste-color-lila, #7D02A6);
-    background: var(--Fondo, #FFF);
-}
+            /* Texto/Tarjeta */
+  /*          font-family: Cantarell;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.4px; /* 140% */
+ /*       }
 
-.consultar{
-    color: var(--contraste-color-lila, #7D02A6);
+        /*------------------------------------------------------------------------------------------------------------------*/
 
-    /* Texto/Tarjeta */
-    font-family: Cantarell;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22.4px; /* 140% */
-}
+ /*       .framebotones{
+            display: flex;
+            width: 656px;
+            height: 39px;
+            padding: 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            border-radius: 20px;
+            border: 1px solid var(--contraste-color-lila, #7D02A6);
+            background: var(--Fondo, #FFF);
+        }
+
+        .consultar{
+            color: var(--contraste-color-lila, #7D02A6);
+
+            /* Texto/Tarjeta */
+/*            font-family: Cantarell;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.4px; /* 140% */
+ /*       }
