@@ -1,413 +1,339 @@
-/*        .productos{
-            display: inline-flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-        }
-
-        .rectangle{
-            width: 1440px;
-            height: 600px;
-        }
-
-        .contenidoybotones{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 64px;
-            position: absolute;
-            left: 56px;
-            top: 32px;
-        }
-
-        .contenido{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 40px;
-        }
-
-        .tituloydescripcion{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 16px;
-        }
-
-        .cuales{
-            width: 741px;
-            height: 48px;
-            color: var(--marca-color-de-letras, #111D38);
-
-            /* Titulos/TituloM */
-/*            font-family: Lora;
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 67.2px; /* 140% */
-/*        }
-
-        .descubre{
-            width: 639px;
-            height: 25px;
-            color: var(--marca-color-de-letras, #111D38);
-
-            /* Texto/Descripcion */
-/*            font-family: Cantarell;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 33.6px; /* 140% */
- /*       }
-
-        .tarjetas{
-            display: flex;
-            align-items: flex-start;
-            gap: 16px;
-
-            /* SombraTarjeta */
-/*            box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
-        }
-
-        /*------------------------------------------------------------------------------------------------------------------*/
-/*        .tarjeta1{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-        }
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 24px;
+}   
 
 
-        .verde1{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
+.tydp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
 
 
-        .tarjetita1{
-            width: 320px;
-            height: 296px;
-            border: 1px solid var(--marca-color-de-letras, #111D38);
-            background: var(--marca-color-de-fondo, #DEEDCF);
-        }
+.cuales{
+    color: var(--marca-color-de-letras, #111D38);
 
-        .itactividades{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-        }
+    /* Titulos/TituloM */
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px; /* 140% */
+}
 
-        .imagen1{
-            width: 304px;
-            height: 184px;
-            background: url(img/home/fotoactividades.png), lightgray 50% / cover no-repeat, #979393;
-        }
 
-        .tact{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 22px;
-        }
+.descubre{
+    color: var(--marca-color-de-letras, #111D38);
 
-        .actividades{
-            width: 129px;
-            height: 18px;
-            color: var(--marca-color-de-letras, #111D38);
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+}
 
-            /* Texto/Descripcion */
-/*            font-family: Cantarell;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 33.6px; /* 140% */
-/*        }
 
-        .cursos{
-            width: 280px;
-            height: 43px;
-            color: var(--marca-color-de-letras, #111D38);
-            text-align: center;
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
 
-            /* Texto/Tarjeta */
-/*            font-family: Cantarell;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 22.4px; /* 140% */
- /*       }
 
-        /*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------Tarjeta 1--------------------------------------------------*/
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px;
+    width: 320px; 
+    padding: 8px; 
+    padding-bottom: 16px; 
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: #DEEDCF; 
+    box-sizing: border-box;
+    
+    /* SombraTarjeta */
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
 
-/*        .tarjeta2{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-        }
 
-        .verde2{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-        }
+.imagen1{
+    width: 304px; 
+    height: auto; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    background: url(img/home/fotoactividades.png), lightgray 50% / cover no-repeat, #979393;
+}
 
-        .tarjetita2{
-            width: 320px;
-            height: 296px;
-            border: 1px solid var(--marca-color-de-letras, #111D38);
-            background: var(--marca-color-de-fondo, #DEEDCF);
-        }
 
-        .itsesiones{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-        }
+.textoact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
-        .imagen2{
-            width: 304px;
-            height: 184px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-            background: url(img/home/fotovivo.png), lightgray 50% / cover no-repeat, #979393;
-        }
 
-        .tses{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 13px;
-        }
+.actividades{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0; 
 
-        .sesiones{
-            width: 221px;
-            height: 28px;
-            position: absolute;
-            right: 49px;
-            bottom: 70px;
-            color: var(--marca-color-de-letras, #111D38);
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */      
+}
 
-            /* Texto/Descripcion */
-/*            font-family: Cantarell;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 33.6px; /* 140% */
-/*        }
 
-        .charla{
-            width: 280px;
-            height: 41px;
-            position: absolute;
-            left: 20px;
-            bottom: 16px;
-            color: var(--marca-color-de-letras, #111D38);
-            text-align: center;
+.cursos{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0;
 
-            /* Texto/Tarjeta */
- /*           font-family: Cantarell;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 22.4px; /* 140% */
- /*       }
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
 
-        /*------------------------------------------------------------------------------------------------------------------*/
-/*        .tarjeta3{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-        }
 
-        .verde3{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-        }
+/*------------------------------------------------Tarjeta 2--------------------------------------------------*/
 
-        .tarjetita3{
-            width: 320px;
-            height: 296px;
-            border: 1px solid var(--marca-color-de-letras, #111D38);
-            background: var(--marca-color-de-fondo, #DEEDCF);
-        }
+.tarjeta2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px;
+    width: 320px; 
+    padding: 8px; 
+    padding-bottom: 16px; 
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: #DEEDCF; 
+    box-sizing: border-box;
+    
+    /* SombraTarjeta */
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
 
-        .itauto{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-        }
 
-        .imagen3{
-            width: 304px;
-        height: 184px;
-        position: absolute;
-        left: 8px;
-        top: 8px;
-        background: url(img/home/fotoauto.png), lightgray 50% / cover no-repeat, #979393;
-        }
+.imagen2{
+    width: 304px; 
+    height: auto; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    background: url(img/home/fotovivo.png), lightgray 50% / cover no-repeat, #979393;
+}
 
-        .tau{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 14px;
-        }
 
-        .autoevaluacion{
-            width: 170px;
-            height: 26px;
-            position: absolute;
-            left: 75px;
-            bottom: 72px;
-            color: var(--marca-color-de-letras, #111D38);
+.textoses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
-            /* Texto/Descripcion */
-/*            font-family: Cantarell;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 33.6px; /* 140% */
- /*       }
 
-        .conoce{
-            width: 279px;
-            height: 42px;
-            position: absolute;
-            right: 20px;
-            bottom: 16px;
-            color: var(--marca-color-de-letras, #111D38);
-            text-align: center;
+.sesiones{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0; 
 
-            /* Texto/Tarjeta */
-/*            font-family: Cantarell;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 22.4px; /* 140% */
- /*       }
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */ 
+}
 
-        /*------------------------------------------------------------------------------------------------------------------*/
- /*       .tarjeta4{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-        }
 
-        .verde4{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-        }
+.charla{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0;
 
-        .tarjetita4{
-            width: 320px;
-            height: 296px;
-            border: 1px solid var(--marca-color-de-letras, #111D38);
-            background: var(--marca-color-de-fondo, #DEEDCF);
-        }
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
 
-        .itapoyo{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-        }
 
-        .imagen4{
-            width: 304px;
-            height: 184px;
-            position: absolute;
-            left: 8px;
-            top: 8px;
-            background: url(img/home/fotoherramientas.png), lightgray 50% / cover no-repeat, #979393;
-        }
+/*------------------------------------------------Tarjeta 3--------------------------------------------------*/
 
-        .tapo{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 22px;
-        }
+.tarjeta3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px;
+    width: 320px; 
+    padding: 8px; 
+    padding-bottom: 16px; 
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: #DEEDCF; 
+    box-sizing: border-box;
+    
+    /* SombraTarjeta */
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
 
-        .herramientas{
-            width: 260px;
-            height: 18px;
-            position: absolute;
-            left: 30px;
-            bottom: 80px;
-            color: var(--marca-color-de-letras, #111D38);
 
-            /* Texto/Descripcion */
-/*            font-family: Cantarell;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 33.6px; /* 140% */
- /*       }
+.imagen3{
+    width: 304px; 
+    height: auto; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    background: url(img/home/fotoauto.png), lightgray 50% / cover no-repeat, #979393;
+}
 
-        .trato{
-            width: 280px;
-            height: 42px;
-            position: absolute;
-            left: 20px;
-            bottom: 16px;
-            color: var(--marca-color-de-letras, #111D38);
-            text-align: center;
 
-            /* Texto/Tarjeta */
-/*            font-family: Cantarell;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 22.4px; /* 140% */
- /*       }
+.textoauto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
-        /*------------------------------------------------------------------------------------------------------------------*/
 
- /*       .framebotones{
-            display: flex;
-            width: 656px;
-            height: 39px;
-            padding: 16px;
-            justify-content: center;
-            align-items: center;
-            gap: 16px;
-            border-radius: 20px;
-            border: 1px solid var(--contraste-color-lila, #7D02A6);
-            background: var(--Fondo, #FFF);
-        }
+.autoevaluacion{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0; 
 
-        .consultar{
-            color: var(--contraste-color-lila, #7D02A6);
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */ 
+}
 
-            /* Texto/Tarjeta */
-/*            font-family: Cantarell;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 22.4px; /* 140% */
- /*       }
+
+.conoce{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+
+/*------------------------------------------------Tarjeta 4--------------------------------------------------*/
+
+.tarjeta4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px;
+    width: 320px; 
+    padding: 8px; 
+    padding-bottom: 16px; 
+    border: 1px solid var(--marca-color-de-letras, #111D38);
+    background: #DEEDCF; 
+    box-sizing: border-box;
+    
+    /* SombraTarjeta */
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+
+.imagen4{
+    width: 304px; 
+    height: auto; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    background: url(img/home/fotoherramientas.png), lightgray 50% / cover no-repeat, #979393;
+}
+
+
+.textoherr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.herramientas{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0; 
+
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */ 
+}
+
+
+.trato{
+    color: var(--marca-color-de-letras, #111D38);
+    text-align: center;
+    margin: 0;
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
+
+
+/*------------------------------------------------Botón--------------------------------------------------*/
+
+.framebotonespro{
+    display: flex;
+    width: 656px;
+    height: 39px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    border: 1px solid var(--contraste-color-lila, #7D02A6);
+    background: var(--Fondo, #FFF);
+    margin-top: 20px; 
+}
+
+
+.consultar{
+    color: var(--contraste-color-lila, #7D02A6);
+
+    /* Texto/Tarjeta */
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+}
