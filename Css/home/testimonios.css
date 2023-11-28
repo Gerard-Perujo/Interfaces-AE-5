@@ -1,45 +1,44 @@
 .testimonios{
     display: inline-flex;
-padding: 28px 56px;
-flex-direction: column;
-align-items: center;
-gap: 29px;
+    padding: 28px 56px;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
 
-margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 
 .mejoraron{
+    color: #000;
 
-color: #000;
-
-/* Titulos/TituloXL */
-font-family: Lora;
-font-size: 64px;
-font-style: normal;
-font-weight: 400;
-line-height: 81.9px; /* 127.969% */
-text-align: center;
+    /* Titulos/TituloXL */
+    font-family: Lora;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81.9px; /* 127.969% */
+    text-align: center;
 }
 
 
 .conocecomo{
     color: #000;
 
-/* Texto/Descripcion */
-font-family: Cantarell;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 33.6px; /* 140% */
-text-align: center;
+    /* Texto/Descripcion */
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px; /* 140% */
+    text-align: center;
 }
 
 
 .testis {
     display: flex;
-align-items: flex-start;
-gap: 48px;     
+    align-items: flex-start;
+    gap: 48px;     
 }
 
 /*------------------------------------------------Testimonio 1------------------------------------------------------*/

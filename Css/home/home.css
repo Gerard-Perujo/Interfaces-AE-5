@@ -189,8 +189,8 @@
     align-items: center;
     gap: 16px;
     border-radius: 20px;
-border: 1px solid var(--contraste-color-lila, #7D02A6);
-background: var(--Fondo, #FFF);
+    border: 1px solid var(--contraste-color-lila, #7D02A6);
+    background: var(--Fondo, #FFF);
 }
 
 
@@ -215,7 +215,7 @@ background: var(--Fondo, #FFF);
     align-items: center;
     gap: 16px;
     border-radius: 20px;
-background: var(--contraste-color-lila, #7D02A6);
+    background: var(--contraste-color-lila, #7D02A6);
 }
 
 
