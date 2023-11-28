@@ -7,6 +7,8 @@
     align-content: center;
     gap: 56px 224px;
     flex-wrap: wrap;
+
+    margin-left: 32px;
 }
 
 
