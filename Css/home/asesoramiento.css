@@ -7,6 +7,8 @@
     align-content: center;
     gap: 10px 96px;
     flex-wrap: wrap;
+
+    margin-top: 88px;
 }
 
 
@@ -66,10 +68,9 @@
     border-radius: 20px;
     border: 1px solid var(--contraste-color-lila, #7D02A6);
     background: var(--Fondo, #FFF);
-    margin-top: 88px;
-
-    margin-left: 88px;
     
+    margin-top: 88px;
+    margin-left: 88px; 
 }
 
 
