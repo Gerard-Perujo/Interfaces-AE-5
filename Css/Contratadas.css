@@ -445,15 +445,143 @@ section{
 }
 
 
+/*
+@media (max-width: 300px){
 
-/*xuleta para query
-@media screen and (min-width:576px){
-    .container{
+    .contenedor{
+        border-radius: 4px;
+        box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+        display:grid;
         grid-template:
-        "Navegador  Main" 831px
-        "Footer  Footer" 192px /
-         200px   auto;
-         esto es el ancho de cada zona dejas siempre una auto y repartes con las
-         demas
+            "Navegador" auto
+            "Main"  auto /*lo suyo es poner el main para que se adapte con el contenido
+            "Footer" auto
+    }
+
+
+    .contenedorNavegador{
+        display:grid;
+        grid-template:
+            "logo avatar"         auto
+            "opciones vacionav1"  auto
+            "buscador vacionav2"  auto/
+                100px     100px
+    
+    }
+
+    .barraBuscar{
+        grid-area:buscador;
+        color:#111D38;
+        font-size: 24px;
+        font-style: normal;
+        font-family: Cantarell;
+        width: 300px;
+        height: 42px;
+        margin-top: 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .input-icon{
+        margin-left: 250%;
+       width: 30px;
+       height: 30px;
+       transform: translateY(-120%);
+    }
+    
+    .opciones{
+        grid-area:opciones;
+        display: flex;
+        flex-direction: column;
+       padding-top: 16px;
+        gap: 48px;
+    }
+
+    .botones{
+        display:grid;
+        gap: 24px;
+        grid-template:
+            "boton1" auto
+            "boton2" auto
+         
+    }
+
+    .targetas{
+        display: grid;
+        gap: 40px;
+        grid-template:
+            "targeta1" auto
+            "targeta2" auto
+            "targeta3" auto
+            "targeta4" auto/
+            300px
+
+           
+    }
+
+    
+    .datosTargeta img{
+        width: 110px;
+        height: 110px;  
+    }
+
+    .contenidoTargeta{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:auto;
+        height:auto;
+    }
+
+    .contenedorFooter{
+        padding:8px;
+        display: grid;
+        grid-template:
+        "privacidad" auto
+        " Contacto" auto/
+        auto
+    }
+    
+    .Contacto{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .privacidad{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+}
+
+
+
+@media only screen and (min-width: 566px) and (max-width: 1500px){
+
+    .barraBuscar{
+        grid-area:buscador;
+        color:#111D38;
+        font-size: 24px;
+        font-style: normal;
+        font-family: Cantarell;
+        width: 300px;
+        height: 42px;
+        margin-top: 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .input-icon{
+        margin-left: 60%;
+       width: 30px;
+       height: 30px;
+       transform: translateY(-120%);
     }
 }
