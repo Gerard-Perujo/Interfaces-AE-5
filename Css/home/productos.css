@@ -64,9 +64,14 @@
     border: 1px solid var(--marca-color-de-letras, #111D38);
     background: #DEEDCF; 
     box-sizing: border-box;
+    transition: 1s;
     
     /* SombraTarjeta */
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tarjeta1:hover{
+    transform: scale(1.1);
 }
 
 
@@ -129,9 +134,14 @@
     border: 1px solid var(--marca-color-de-letras, #111D38);
     background: #DEEDCF; 
     box-sizing: border-box;
+    transition: 1s;
     
     /* SombraTarjeta */
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tarjeta2:hover{
+    transform: scale(1.1);
 }
 
 
@@ -194,9 +204,14 @@
     border: 1px solid var(--marca-color-de-letras, #111D38);
     background: #DEEDCF; 
     box-sizing: border-box;
+    transition: 1s;
     
     /* SombraTarjeta */
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tarjeta3:hover{
+    transform: scale(1.1);
 }
 
 
@@ -259,9 +274,14 @@
     border: 1px solid var(--marca-color-de-letras, #111D38);
     background: #DEEDCF; 
     box-sizing: border-box;
+    transition: 1s;
     
     /* SombraTarjeta */
     box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tarjeta4:hover{
+    transform: scale(1.1);
 }
 
 
@@ -337,4 +357,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: 22.4px; /* 140% */
+}
+
+.framebotonespro:hover{
+    border: 1px solid  rgba(142, 0, 148, 0.54);
+    color:rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }

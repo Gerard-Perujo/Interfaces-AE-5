@@ -257,3 +257,13 @@
     font-weight: 500;
     line-height: 33.6px; /* 140% */
 }
+
+.botps:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}
+
+.botnp:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}

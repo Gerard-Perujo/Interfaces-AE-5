@@ -88,6 +88,15 @@
     margin-top: -48px;
 }
 
+.frame5 a{
+    text-decoration: none;
+}
+
+.frame5:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}
+
 
 .empezar{
     color: var(--base-blanco, var(--Fondo, #FFF));

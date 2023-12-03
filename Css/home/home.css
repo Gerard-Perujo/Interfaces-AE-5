@@ -38,7 +38,7 @@
     */
     grid-template:
         "vacionav1 logo vacionav2 opciones vacionnav3 Registro vacionnavor buscardor  vacionav5"/
-            32px    97px  auto       443px    auto      235px     auto       413px     32px
+            32px    97px  auto       443px    auto      235px     75px       413px     32px
 }
 
 
@@ -153,7 +153,7 @@
 
 
 .input-icon{
-    margin-left: 108%;
+    margin-left: 90%;
    width: 30px;
    height: 30px;
    transform: translateY(-120%);
@@ -221,7 +221,18 @@
 
 .regses{
     border-radius: 20px;
-    background: var(--contraste-color-lila, #7D02A6);
+   color: white;
+}
+
+.botonreg:hover{
+    background-color: rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.90);
+}
+
+.botonini:hover{
+    border: 1px solid  rgba(142, 0, 148, 0.54);
+    color:rgba(142, 0, 148, 0.54);
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
 }
 
 
